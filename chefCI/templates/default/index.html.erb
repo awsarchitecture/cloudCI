@@ -1,0 +1,8 @@
+<html>
+	<b>  <%= node[:chefCI][:greeting] %>  </b> <br/>
+
+	<b> This server is <%= node[:hostname] %> </b> <br/>
+
+	<p> Served from <%= node['ipaddress'] %>:<%= @port %> </p>
+
+</html>
